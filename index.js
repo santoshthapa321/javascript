@@ -38,12 +38,19 @@ ismarried= true;
 //const
 //let
 //var sakbar nagarne
-var laptopBrand="Dell;" 
+var laptopBrand="Dell" ;
 console.log("laptop ko Brand", laptopBrand);
 const PI = 3.14;
 console.log("PI ko Value", PI);
-classTime = "1 Hour"
-console.log ( "class Time" classTime)
+classTime = "1 Hour";
+console.log ( "class Time",classTime);
+//array example
+
+let subjects=["English", "Nepali", "Maths", "Computer"];
+// array contains similar data types
+let oppo = "oppo";
+let Brand = ["Samsung","Lenovo","Iphone",oppo];
+console.log(Brand);
 
 
   
