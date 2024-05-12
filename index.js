@@ -51,6 +51,21 @@ let subjects=["English", "Nepali", "Maths", "Computer"];
 let oppo = "oppo";
 let Brand = ["Samsung","Lenovo","Iphone",oppo];
 console.log(Brand);
+//object concept
+/*
+let object = {
+    <key>: <value>
+    <property> : <value>
+    <attribute> : <value>
+}
+*/
 
+let schoolDetails={
+    schoolName:"Bagmati School",
+    schoolLoation:"Putalisadak",
+    schoolEstd:"1990",
+
+};
+console.log(schoolDetails);
 
   
