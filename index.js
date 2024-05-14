@@ -170,3 +170,11 @@ console.log(person1.girlFriends[2]);
 console.log(person1.girlFriends[0]);
 //printing height
 console.log(person1.height);
+//ternary operTOR
+let colors={
+  color: "white",
+  hexValue: "#00000",
+
+};
+//to print white color ko hex value #00000 ho
+console.log(`${colors.color} color ko hex value ${colors.hexValue} ho` );
