@@ -171,10 +171,160 @@ console.log(person1.girlFriends[0]);
 //printing height
 console.log(person1.height);
 //ternary operTOR
-let colors={
-  color: "white",
+let colors = {
+  color1: "white",
   hexValue: "#00000",
-
+  color2: "blue",
+  hexValue: "#00000",
+  color3: "blue",
+  hexValue: "#00000",
 };
 //to print white color ko hex value #00000 ho
-console.log(`${colors.color} color ko hex value ${colors.hexValue} ho` );
+console.log(`${colors.color1} color ko hex value ${colors.hexValue} ho`);
+console.log(`${colors.color2} color ko hex value ${colors.hexValue} ho`);
+console.log(`${colors.color3} color ko hex value ${colors.hexValue} ho`);
+
+//function kei kura reuser garna ko lagi use garincha
+
+// funtion functionname(){
+//eha task garna ho
+//}
+
+console.log("sum of 1 + 2", 1 + 2);
+console.log("sum of 3 + 4", 3 + 4);
+console.log("sum of 5 + 10", 5 + 10);
+
+function sum(num1, num2) {
+  // let num1=1 let num2=2;
+  console.log(`sum of ${num1} + ${num2} =`, num1 + num2);
+}
+
+// function chalauna call garna imp cha
+//kasari fun call garne ta ? function ko name dine ani ()
+
+sum();
+
+sum();
+
+// parmeters chai function bhitra halne kura ho
+
+sum(1, 2);
+sum(3, 4);
+sum(5, 10);
+
+function greetings(g1, name) {
+  //l somethinetg=soome
+  console.log(` ${g1}  ${name}`);
+}
+
+greetings("goodmorning", "Santosh");
+greetings("Ohayogojaimas", "mirasan");
+greetings("Anyanghasyo", "kimyoung");
+
+//creating another function
+
+function another(t1, t2) {
+  console.log(`${t1}le ${t2} Khayo`);
+}
+another("Ram", "Kera");
+another("Hari", "Bhat");
+// let x = 5;
+// let y = 10;
+// let z = x + y;
+// alert(z);
+let text = "gadcjvdjcvajvch";
+console.log(text.length);
+////
+let number = 100;
+number = number + 10;
+number += 30;
+console.log(number);
+
+// post increment
+
+let agee = 20;
+console.log(agee++); // post increment
+
+console.log(++agee); //pre increment
+console.log(agee);
+
+// operator
+
+// <
+// >
+// <=
+// >=
+
+// equity oprator
+
+// == khasai strict hudaina tara === strict ekdam maintain gareko huncha
+
+// "1"==1// true</>
+// "1"===1 //false
+
+// conditon
+
+//  syntax
+// if(condition){
+// do true task
+// }else{
+// do something else
+// }
+
+let willRain = true;
+
+if (willRain) {
+  console.log("there will be online class");
+} else {
+  console.log("there will be physical class");
+}
+
+// if(true){
+//   yo kura chalcha
+// }else{
+//   yo kura chalcha
+// }
+
+let hour = 14;
+if (hour < 12) {
+  console.log("good morning");
+} else {
+  console.log("good afternoon");
+}
+
+let minAge = 18;
+let herAge = 19;
+let hasConsent = false;
+
+if (herAge >= 18) {
+  if (hasConsent) {
+    console.log("she can marry");
+  } else {
+    console.log("she cannt");
+  }
+} else {
+  console.log("she cant marry");
+}
+
+let ageee = 20;
+
+let willRainn = false;
+let hasProbability = true;
+
+if (willRain) {
+  console.log("Online class");
+} else {
+  if (hasProbability) {
+    console.log("Surely there will be online class");
+  } else {
+    console.log("there will be physical class");
+  }
+}
+
+if (willRain) {
+  console.log("online class");
+} else if (hasProbability) {
+  console.log("online class");
+} else {
+  console.log("physical class");
+}
